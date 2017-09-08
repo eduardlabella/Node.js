@@ -1,0 +1,3 @@
+
+# Ignore the folder with the install modules with NPM
+/node_modules
