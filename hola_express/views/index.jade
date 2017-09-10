@@ -1,0 +1,13 @@
+html
+  head
+    title Mi primera página web
+  body
+    - var arreglo = [1,2,3,4,5];
+    each item in arreglo
+      case item
+        when 1
+          p el item era 1
+        when 2
+          p el item era 2
+        default
+          p el item no era ni 1 ni 2
